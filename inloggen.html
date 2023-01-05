@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="inloggen.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="h1">LOGIN</h1>
+
+    <form class="box">
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <button type="button" onclick="checkpassword()" id="login">Login
+        </button>
+    </form>
+
+
+    <style>
+
+
+        /* The animation code */
+ .background {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+/* The element to apply the animation to */
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+        h1{
+            text-transform: uppercase;
+            color: white;
+            font-family: sans-serif;
+        }
+        body{
+            text-transform: uppercase;
+            background-color:darkslategray;
+        }
+        .box{
+	width: 300px;
+    height: 400px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #191919;
+	text-align: center;
+	border-radius: 20px;
+}
+
+.box button[type = "button"]{
+				border: 0;
+			background: none;
+			display: block;
+			margin: 20px auto;
+			text-align: center;
+			border: 2px solid #2ecc71;
+			padding: 14px 40px;
+			width: 200px;
+			outline:  none;
+			color:  white;
+			border-radius: 24px;
+			transition: 0.25s;
+			cursor: pointer;
+		}
+		.box button[type = "button"]:hover{
+			background: #2ecc71;
+		}
+        .box input[type = "text"], .box input[type = "Password"]{
+            border: 0;
+            background: none;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 200px;
+	outline:  none;
+	color:  white;
+	border-radius: 24px;
+	transition: 0.25s;
+        }
+    .h1{
+        text-align: center;
+        top: 30%;
+        bottom: 70%;
+    }
+
+    </style>
+</body>
+</html>
